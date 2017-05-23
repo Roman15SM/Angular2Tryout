@@ -1,0 +1,15 @@
+﻿<div>
+    <div>
+        <label> Login </label>
+        <input #loginInput type="text"/>
+    </div>
+
+    <div>
+        <label> Password </label>
+        <input #passwordInput type="password"/>
+    </div>
+
+    <div>
+        <button (click)="loginUser(loginInput.value, passwordInput.value)"> Login </button>
+    </div>
+</div>
