@@ -228,6 +228,7 @@
     <TypeScriptCompile Include="Scripts\App\app.module.ts" />
     <TypeScriptCompile Include="Scripts\App\components\hello-world\app.component.hello-world.ts" />
     <TypeScriptCompile Include="Scripts\App\components\login\app.component.login.ts" />
+    <TypeScriptCompile Include="Scripts\App\components\services\login.service.ts" />
     <TypeScriptCompile Include="Scripts\App\main.ts" />
   </ItemGroup>
   <ItemGroup>
