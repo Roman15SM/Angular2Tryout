@@ -13,5 +13,6 @@ export class LoginComponent {
     loginUser(login: string, password: string)
     {
         console.log('It works!!! Login: ' + login + ' Password: ' + password);
+        this.loginService.login();
     }
 }

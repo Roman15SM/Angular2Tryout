@@ -5,9 +5,10 @@ namespace AngularTryout.Controllers.api
 {
     public class LoginController : ApiController
     {
+        [HttpGet]
         public IHttpActionResult Login()
         {
-            return Ok();
+            return Ok("bla");
         }
     }
 }
