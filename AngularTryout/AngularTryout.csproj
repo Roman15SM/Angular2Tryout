@@ -227,7 +227,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\App\app.module.ts" />
-    <TypeScriptCompile Include="Scripts\App\components\hello-world\app.component.hello-world.ts" />
+    <TypeScriptCompile Include="Scripts\App\components\party-hard-app\app.component.party-hard-app.ts" />
+    <Content Include="Scripts\App\components\party-hard-app\app.component.party-hard-app.html" />
     <TypeScriptCompile Include="Scripts\App\components\home\app.component.home.ts" />
     <TypeScriptCompile Include="Scripts\App\components\login\app.component.login.ts" />
     <TypeScriptCompile Include="Scripts\App\main.ts" />
