@@ -176,6 +176,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\App\components\home\app.component.home.html" />
+    <Content Include="Scripts\App\components\login\app.component.login.css" />
     <Content Include="Scripts\App\components\login\app.component.login.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

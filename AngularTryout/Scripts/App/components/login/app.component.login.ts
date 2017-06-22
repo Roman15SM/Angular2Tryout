@@ -2,8 +2,10 @@
 import { LoginService } from '../../services/login.service';
 
 @Component({
+    moduleId: module.id,
     selector: 'login',
-    templateUrl: './Scripts/App/components/login/app.component.login.html',
+    templateUrl: 'app.component.login.html',
+    styleUrls: ["app.component.login.css"],
     providers: [LoginService]
 })
 
